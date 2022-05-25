@@ -16,39 +16,17 @@ melalui XAMPP.
 Untuk menjalankan MySQL Server dari menu XAMPP Contol.
 ![xampp](screenshot/xampp.png)
 
+## 3. Mengakses MySQL Client menggunakan PHP MyAdmin
+Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka
+melalui browser: http://localhost/phpmyadmin/
 
 
-## 2. Menjalankan web server
-Untuk menjalankan web server dari menu XAMPP Control
+## 4. Membuat Database: Studi Kasus Data Barang
 
-![gambar2](screenshot/gambar2.png)
+![tabel](screenshot/tabel.png)
 
-• Uji coba apakah server sudah berkerja dengan baik
-http://127.0.0.1 atau http://localhost
-
-Tampil halaman utama XAMPP jika server sudah berkerja dengan baik.
-
-• Dokumen Website
-Semua file website tempatkan di direktori: \xampp\htdocs\
-
-• Database MySQL
-Direktori: \xampp\mysql\
-
-Manajemen database: http://localhost/phpmyadmin
-
-## 3. Memulai PHP
-Buat folder lab7_php_dasar pada root directory web server (\xampp\htdocs)
-
-![gambar3](screenshot/gambar3.png)
-
-Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
-http://localhost/Lab7_php_dasar/
-
-![index](screenshot/index.png)
-
-## 4. PHP Dasar
-Buat file baru dengan nama php_dasar.php pada directory tersebut. Kemudian buat
-kode seperti berikut.
+## 5. Membuat Database
+![database](screenshot/database.png)
 
 ## **Codingan** ##
 
