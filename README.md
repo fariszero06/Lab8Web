@@ -28,128 +28,25 @@ melalui browser: http://localhost/phpmyadmin/
 ## 5. Membuat Database
 ![database](screenshot/database.png)
 
-## **Codingan** ##
+## 6. Membuat Tabel
+![tabel1](screenshot/tabel1.png)
+![tabel2](screenshot/tabel2.png)
 
-```PHP
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>PHP Dasar</title>
-</head>
-<body>
-<h1>Belajar PHP Dasar</h1>
-<?php
-echo "Hello World";
-?>
-</body>
-</html>
-```
-![gambar4](screenshot/gambar4.png)
+## 7. Menambahkan Data
+![data1](screenshot/data1.png)
+![data2](screenshot/data2.png)
 
-Kemudian untuk mengakses hasilnya melalui URL:
-http://localhost/Lab7_php_dasar/dasar.php
+## 8. Membuat Program CRUD
+Buat folder lab8_php_database pada root directory web server (d:\xampp\htdocs)
+![folder](screenshot/folder.png)
 
-### Variable PHP
-Menambahkan variable pada program.
 
-## **Codingan** ##
 
-```PHP
-<?php
-$nim = "312010034";
-$nama = 'Faris Syahluthfi';
-echo "NIM : " . $nim . "<br>";
-echo "Nama : $nama";
-?>
-```
 
-![gambar5](screenshot/gambar5.png)
 
-### Predefine Variable `$_GET`
-## **Codingan** ##
 
-```PHP
-<?php
-echo 'Selamat Datang ' . $_GET['nama'];
-?>
-```
 
-Untuk mengaksesnya gunakan URL:
-http://localhost/lab7_php_dasar/Lab7Web/latihan2.php?nama=Faris
 
-![gambar6](screenshot/gambar6.png)
-
-## 5. Membuat Form Input
-## **Codingannya** ##
-```PHP
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>PHP Dasar</title>
-</head>
-<body>
-<h2>Form Input</h2>
-<form method="post">
-<label>Nama: </label>
-<input type="text" name="nama">
-<input type="submit" value="Kirim">
-</form>
-<?php
-echo 'Selamat Datang ' . $_POST['nama'];
-?>
-</body>
-</html>
-```
-![gambar7](screenshot/gambar7.png)
-
-### Operator
-## **Codingannya** ##
-```PHP
-<?php
-$gaji = 1000000;
-$pajak = 0.1;
-$thp = $gaji - ($gaji*$pajak);
-echo "Gaji sebelum pajak = Rp. $gaji <br>";
-echo "Gaji yang dibawa pulang = Rp. $thp";
-?>
-```
-![gambar12](screenshot/gambar12.png)
-
-### Kondisi IF
-## **Codingannya** ##
-```PHP
-<?php
-$nama_hari = date("l");
-if ($nama_hari == "Sunday") {
-echo "Minggu";
-} elseif ($nama_hari == "Monday") {
-echo "Senin";
-} else {
-echo "Selasa";
-}
-?>
-```
-
-![gambar8](screenshot/gambar8.png)
-
-### Perulangan for
-## **Codingannya** ##
-```PHP
-<?php
-echo "Perulangan 1 sampai 10 <br />";
-for ($i=1; $i<=10; $i++) {
-echo "Perulangan ke: " . $i . '<br />';
-}
-echo "Perulangan Menurun dari 10 ke 1 <br />";
-for ($i=10; $i>=1; $i--) {
-echo "Perulangan ke: " . $i . '<br />';
-}
-?>
-```
-
-![gambar9](screenshot/gambar9.png)
 
 ### Perulangan while
 ## **Codingannya** ##
